@@ -1,2 +1,43 @@
+# Общие системные файлы
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Логи и временные файлы
+*.log
+*.tmp
+npm-debug.log*
+
+# Зависимости
 node_modules/
+dist/
+
+# Файлы окружения
 .env
+.env.local
+.env.*.local
+
+# Docker-специфика
+**/docker-data/
+**/backups/
+**/.dockerignore
+
+# Database
+*-journal
+*.sqlite
+*.db
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Кэш и билды
+.cache/
+build/
+*.exe
